@@ -1,0 +1,85 @@
+@import "../components/colors";
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-image: linear-gradient(to right, rgba(255, 0, 0, 0), rgba(255, 218, 9, 0.541));
+
+}
+
+.container {
+    position: relative;
+    overflow: hidden;
+    height: 85vh;
+
+    //background-color: aqua;
+    .icons {
+        position: absolute;
+        right: 30px;
+        bottom: calc(100vh - 80vh);
+        width: 4vw;
+        margin: 40px;
+        align-items: center;
+        border-radius: 20px;
+        background-color: white;
+        box-shadow: 1px 1px 10px black;
+
+        svg {
+            display: block;
+            font-size: 48px;
+            margin: 20px auto;
+            transition: all .2s ease-in-out;
+            color: rgb(150, 103, 18);
+
+            &:hover {
+                transform: scale(1.4);
+            }
+        }
+    }
+
+    .main {
+        position: absolute;
+        left: 18vw;
+        top: 23vh;
+        display: flex;
+
+        .body {
+            display: inline-block;
+            width: 30vw;
+
+            h1 {
+                font-size: 50px;
+            }
+
+            p {
+                text-align: left;
+                font-size: 20px;
+            }
+
+            button {
+                background-color: $color-primary;
+                height: 50px;
+                width: 400px;
+                border-radius: 20px;
+                border: 0;
+                box-shadow: 1px 1px 10px black;
+                margin: 30px 0;
+                cursor: pointer;
+
+                &:hover {
+                    background-color: beige;
+                    box-shadow: 0;
+                    border: 2px solid black;
+                }
+            }
+        }
+
+        .video {
+            display: inline-block;
+            margin: 60px 80px;
+
+            .video-react-video {
+                box-shadow: 1px 1px 10px black;
+            }
+        }
+    }
+}

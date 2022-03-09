@@ -1,0 +1,70 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background-image: linear-gradient(to right, rgba(255, 0, 0, 0), rgba(255, 218, 9, 0.541));
+}
+
+.container {
+  position: relative;
+  overflow: hidden;
+  height: 85vh;
+}
+.container .icons {
+  position: absolute;
+  right: 30px;
+  bottom: 20vh;
+  width: 4vw;
+  margin: 40px;
+  align-items: center;
+  border-radius: 20px;
+  background-color: white;
+  box-shadow: 1px 1px 10px black;
+}
+.container .icons svg {
+  display: block;
+  font-size: 48px;
+  margin: 20px auto;
+  transition: all 0.2s ease-in-out;
+  color: #966712;
+}
+.container .icons svg:hover {
+  transform: scale(1.4);
+}
+.container .main {
+  position: absolute;
+  left: 18vw;
+  top: 23vh;
+  display: flex;
+}
+.container .main .body {
+  display: inline-block;
+  width: 30vw;
+}
+.container .main .body h1 {
+  font-size: 50px;
+}
+.container .main .body p {
+  text-align: left;
+  font-size: 20px;
+}
+.container .main .body button {
+  background-color: gold;
+  height: 50px;
+  width: 400px;
+  border-radius: 20px;
+  border: 0;
+  box-shadow: 1px 1px 10px black;
+  margin: 30px 0;
+  cursor: pointer;
+}
+.container .main .body button:hover {
+  background-color: beige;
+  box-shadow: 0;
+  border: 2px solid black;
+}
+.container .main .video {
+  display: inline-block;
+  margin: 60px 80px;
+}
+.container .main .video .video-react-video {
+  box-shadow: 1px 1px 10px black;
+}

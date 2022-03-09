@@ -1,0 +1,55 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.admin-panel {
+  padding: 80px;
+}
+.admin-panel .header {
+  display: flex;
+}
+.admin-panel .header svg {
+  padding-top: 27px;
+  padding-right: 10px;
+  font-size: xx-large;
+}
+.admin-panel .hr {
+  width: 90vw;
+  border-bottom: 1px solid #3f3f3f;
+}
+.admin-panel .items {
+  display: flex;
+  justify-content: space-around;
+  padding: 80px 0px;
+}
+.admin-panel .items div {
+  height: 220px;
+  width: 220px;
+  border-radius: 10px;
+  display: inline-block;
+  background-color: gold;
+  text-align: center;
+  transition: all 0.2s ease-in-out;
+  margin: 5px;
+  box-shadow: 0px 0px 5px 0px black;
+  cursor: pointer;
+}
+.admin-panel .items div svg {
+  color: black;
+  font-size: 50px;
+  margin-top: 30px;
+}
+.admin-panel .items div .split {
+  display: inline-block;
+  border-bottom: 1px solid #3b3b3b;
+  height: 1px;
+  width: 180px;
+  box-shadow: 0px 0px 5px 0px black;
+}
+.admin-panel .items div h4 {
+  color: black;
+  font-weight: 900;
+}
+.admin-panel .items div:hover {
+  transform: scale(1.1);
+}

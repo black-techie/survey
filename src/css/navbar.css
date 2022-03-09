@@ -1,0 +1,25 @@
+nav {
+  background-color: transparent;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  height: 68px;
+  width: 100vw;
+  box-shadow: 0px 0px 10px black;
+  text-align: center;
+}
+nav a {
+  text-decoration: none;
+  padding: 20px;
+  display: inline-block;
+  align-items: center;
+  color: black;
+  font-weight: 600;
+}
+nav a:hover {
+  font-weight: 900;
+}
+nav .selected {
+  border-bottom: 3px solid;
+}

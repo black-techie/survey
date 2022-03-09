@@ -1,0 +1,14 @@
+.footer {
+  position: fixed;
+  bottom: 20px;
+  width: 100vw;
+  text-align: center;
+}
+.footer div {
+  display: inline-block;
+  background-color: gold;
+  padding: 10px 40px;
+  font-weight: 500;
+  border-radius: 10px;
+  box-shadow: 1px 1px 10px black;
+}
